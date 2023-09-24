@@ -1,7 +1,7 @@
 import torch
 from torchvision.transforms import transforms
 from PIL import Image
-from anewhope import CustomCNN  # Importing my trained model class, which has to have the same name as the .pth file
+from modelclass import CustomCNN  # Importing my trained model class, which has to have the same name as the .pth file
 
 # Loading my trained model
 model = CustomCNN()
